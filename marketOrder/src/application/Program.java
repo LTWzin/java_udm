@@ -41,7 +41,8 @@ public class Program {
 		for (int i=0;i<orderQuantity;i++) {
 			System.out.printf("Enter #%d item data:\n", i+1);
 			System.out.print("Product name: ");
-			String productName = sc.next();
+			sc.nextLine();
+			String productName = sc.nextLine();
 			System.out.print("Product price: ");
 			Double productPrice = sc.nextDouble();
 			System.out.print("Quantity: ");
